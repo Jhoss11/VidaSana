@@ -132,22 +132,22 @@
 				<!-- Footer -->
 					<footer id="footer">
 						<section>
-							<form method="post" action="#">
+							<form action="guardar.php" method="get">
 								<div class="fields">
 									<div class="field">
 										<label for="name">Nombre</label>
-										<input type="text" name="name" id="name" />
+										<input type="text" name="nombre" />
 									</div>
-									<div class="field">
+								<div class="field">
 										<label for="email">Email</label>
-										<input type="text" name="email" id="email" />
+										<input type="text" name="email"/>
 									</div>
 									<div class="field">
 										<label for="message">Mensaje</label>
 										<textarea name="message" id="message" rows="3"></textarea>
 									</div>
 								</div>
-								<ul class="actions">
+								<ul class="actions"> 
 									<li><input type="submit" value="Enviar Mensaje" /></li>
 								</ul>
 							</form>
